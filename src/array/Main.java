@@ -14,7 +14,8 @@ public class Main {
 		String[] sArray = new String[5];
 
 		for (int i = 0; i < sArray.length; i++) {
-			System.out.println(sArray[i]);
+			sArray[i]=String.valueOf(i);
+			System.out.println(sArray[i].length());
 		}
 
 	}
